@@ -9,6 +9,7 @@ class Hash
           new_array << k
         end
       end
+    new_array
     end
-    array
+    
 end
