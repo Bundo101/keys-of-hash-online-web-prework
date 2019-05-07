@@ -3,13 +3,13 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     array = []
-    arguments.each do |argument|
+    arguments.each do |arg|
       self.each do |k, v|
-        if v == argument
+        if v == arg
           array << k
         end
       end
     end
-  array  
+    array
   end
 end
