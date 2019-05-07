@@ -3,7 +3,6 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     puts arguments
-    binding.pry
     new_array = []
     self.each do |k, v|
       if arguments.include?(v)
