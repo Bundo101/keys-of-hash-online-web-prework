@@ -5,7 +5,8 @@ class Hash
     array = []
     arguments.each do |arg|
       self.each do |k, v|
-        if v == arg
+        #if v == arg
+        if arg.include?(v)
           array << k
         end
       end
