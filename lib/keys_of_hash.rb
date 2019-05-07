@@ -10,6 +10,5 @@ class Hash
         end
       end
     new_array
-    end
-    
+  end
 end
