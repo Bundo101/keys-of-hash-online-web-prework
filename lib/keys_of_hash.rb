@@ -2,11 +2,11 @@ require 'pry'
 
 class Hash
   def keys_of(*arguments)
-    array = []
+    new_array = []
     self.each do |k, v|
         #if v == arg
         if arguments.include?(v)
-          array << k
+          new_array << k
         end
       end
     end
